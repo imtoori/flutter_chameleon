@@ -1,3 +1,5 @@
+![Pub](https://img.shields.io/badge/Pub-0.1.2-orange.svg?link=https://pub.dartlang.org/packages/flutter_chameleon)
+
 # flutter_chameleon
 
 Flutter package to show platform **dependent** widgets.
