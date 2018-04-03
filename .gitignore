@@ -5,5 +5,5 @@
 .packages
 .pub/
 packages
-vscode
+.vscode
 *.lock
