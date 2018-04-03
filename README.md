@@ -1,9 +1,23 @@
 # flutter_chameleon
 
-A new flutter package project.
+Flutter package to show platform **dependent** widgets.
 
-## Getting Started
+## Usage
 
-For help getting started with Flutter, view our online [documentation](https://flutter.io/).
+Just use chameleon widgets instead of material or cupertino and they will show up depending on the hosting platform.
 
-For help on editing package code, view the [documentation](https://flutter.io/developing-packages/).
+## Widget included
+
+* activity indicator
+* alert dialog
+* bottom navigationbar
+* button
+* dialog
+* slider
+* switch
+
+More to come..
+
+## Contributions
+
+Contributions of any kind are more than welcome! Feel free to fork and improve flutter_chameleon in any way you want, make a pull request, or open an issue.
