@@ -14,6 +14,9 @@ class ChameleonButton extends Widget {
   final Color highlightColor;
   final Brightness colorBrightness;
   final Widget child;
+  final double height;
+  final double highlightElevation;
+  final double minWidth;
 
   bool get enabled => onPressed != null;
   final EdgeInsetsGeometry padding;
@@ -21,6 +24,7 @@ class ChameleonButton extends Widget {
   final BorderRadius borderRadius;
   final double minSize;
   final double pressedOpacity;
+  final double elevation;
 
   const ChameleonButton({
     Key key,
@@ -28,6 +32,7 @@ class ChameleonButton extends Widget {
     this.onHighlightChanged,
     this.textTheme,
     this.textColor,
+    this.height,
     this.disabledTextColor,
     this.color,
     this.disabledColor,
@@ -36,27 +41,30 @@ class ChameleonButton extends Widget {
     this.colorBrightness,
     this.padding,
     this.shape,
+    this.minWidth,
+    this.highlightElevation,
     @required this.child,
     this.borderRadius: const BorderRadius.all(const Radius.circular(8.0)),
     this.minSize,
+    this.elevation,
     this.pressedOpacity: 0.1,
   });
 
   @override
   Element createElement() {
     return defaultTargetPlatform == TargetPlatform.android
-        ? new FlatButton(
+        ? new MaterialButton(
             onPressed: onPressed,
             child: child,
             color: color,
             colorBrightness: colorBrightness,
-            disabledColor: disabledColor,
-            disabledTextColor: disabledTextColor,
+            elevation: elevation,
+            height: height,
+            highlightElevation: highlightElevation,
+            minWidth: minWidth,
             highlightColor: highlightColor,
             key: key,
-            onHighlightChanged: onHighlightChanged,
             padding: padding,
-            shape: shape,
             splashColor: splashColor,
             textColor: textColor,
             textTheme: textTheme,

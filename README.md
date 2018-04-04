@@ -1,4 +1,6 @@
-[![Pub](https://img.shields.io/badge/Pub-0.1.2-orange.svg)](https://pub.dartlang.org/packages/flutter_chameleon)
+[![Pub](https://img.shields.io/badge/Pub-0.1.3-orange.svg)](https://pub.dartlang.org/packages/flutter_chameleon)
+
+![logo](./logo.png)
 
 # flutter_chameleon
 
