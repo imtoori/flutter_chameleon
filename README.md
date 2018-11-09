@@ -1,3 +1,5 @@
+[UNMAINTAINED]
+
 [![Pub](https://img.shields.io/badge/Pub-0.1.3-orange.svg)](https://pub.dartlang.org/packages/flutter_chameleon)
 
 <img src="https://github.com/Salvatore-Giordano/flutter_chameleon/blob/master/logo.png" width="240"/>
